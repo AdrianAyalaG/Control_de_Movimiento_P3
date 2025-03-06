@@ -25,6 +25,12 @@ foto unu
 
 > 🔑Definición: Los motores DC están compuestos por un rotor (bobinado) y un estator, que genera un campo magnético mediante imanes. La interacción entre el campo magnético del estator y la corriente en el bobinado del rotor produce una fuerza electromagnética que genera el movimiento. Además, las escobillas permiten la transferencia de corriente al embobinado del rotor, asegurando una continuidad.
 
-* Hay un consumo alto en este motor, Hay mucha potencia, pero a más potencia se necesita más tamaño del motor. 
+* Hay un consumo alto en este motor, Hay mucha potencia, pero a más potencia se necesita más tamaño del motor.
+* Cuentan con un colector de delgas que Su función principal es actuar como un conmutador mecánico, permitiendo que la corriente cambie de dirección en las bobinas del rotor conforme este gira, manteniendo así un movimiento continuo. 
 
+### 2.1.2 Motor AC
+
+foto unu
+
+> 🔑Definición: 
 
