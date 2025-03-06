@@ -50,7 +50,11 @@ foto unu
 * El campo magnético generado por las bobinas del estator induce una corriente en el rotor.
 * Torque grande = Motor más grande.
 
-
+##### 2.1.2.2.1 Tipos de motores asincronos 
+| TIPO DE MOTOR  | VENTAJAS | DESVENTAJAS  |
+| ------ | ------ | ------ |
+| DC | -1.2  | 0.07 | 
+| AC SÍNCRONO | 0.3 | 0.07 | 
   
 
 
