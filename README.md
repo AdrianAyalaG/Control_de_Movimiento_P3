@@ -58,8 +58,33 @@ foto unu
   
 Tabla 1. Tabla de diferencias entre Motores DC y Motores AC síncronos.
 
-## 2.2 Zonas de 
+## 2.2 Zonas de Operación
+
+fotos unu
+
 ## 2.3 Validación de modelo en Simscape
 * Hay que tener en cuenta que el modo de operación es continuo.
-* En $$ T_{máx} $$ cuando $$v=0$$
+* En $$T_{máx}$$ (Vencer inercia mecánica) cuando $$v=0$$. Esto significa que con una velocidad nula, el torque va a ser nominal, como trabaja el 90% del tiempo.
+* La corriente es directamente proporcional al torque.
+* Hay que tener en cuenta que pueden haber momentos abruptos de más torque (No más de 10 segundos para evitar deterioramiento del motor).
+* Hay que tener en cuenta que el rotor tiene carga adicional.
+* foto unu
+* Se deben seguir unos pasos para poder configurar bien el sistema y analizar las zonas de operación del motor
+  | PASOS  |
+  | ------ |
+  | 1. Solver configuration y referencias eléctrica y mecánica |
+  | 2. Fuente de voltaje y de carga mecánica |
+  | 3. Sensores de corriente, de velocidad angular y de torque |
+
+  Tabla 2. Pasos para una ótima validación de modelo.
+   
+### 2.3.1 Validación Simscape.
+La explicación del modelo se hará por medio de un ejemplo:
+
+
+### 2.3.2 Elementos
+* Los elementos en Simscape se dividen en multiples sistemas. Es decir, elementos en color azul - Eléctricos. Color verde - Mecánicos, entre otros.
+
+# 3. Sensores para servomecanismos 
+
 
