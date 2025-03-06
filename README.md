@@ -54,7 +54,7 @@ foto unu
 | TIPO DE MOTOR  | VENTAJAS | DESVENTAJAS  |
 | ------ | ------ | ------ |
 | DC | Control sencillo y preciso. Driver de potencia más fácil de implementar. Funciona bien a bajas velocidades. Eficiencia alta en aplicaciones de pequeña escala.  | Requiere mantenimiento por el desgaste de escobillas. No apto para entornos sucios / abrasivos. No adecuado para aplicaciones de alto Torque. Los imanes pueden desmagnetizarse con el tiempo.| 
-| AC SÍNCRONO |  |  | 
+| AC SÍNCRONO |  Bajo mantenimiento, ya que no tiene escobillas. Mayor eficiencia en un rango amplio de aplicaciones. Compacto y ligero en comparación con otras opciones. Resistencia alta a condiciones ambientales adversas. | Control más complejo que el de un motor DC. Se necesita sincronización precisa entre el driver y el motor. Sus imanes pueden perder magnetismo con el tiempo (Aunque duren más | 
   
 
 
