@@ -53,8 +53,14 @@ foto unu
 ##### 2.1.2.2.1 Tipos de motores asincronos 
 | TIPO DE MOTOR  | VENTAJAS | DESVENTAJAS  |
 | ------ | ------ | ------ |
-| DC | -1.2  | 0.07 | 
-| AC SÍNCRONO | 0.3 | 0.07 | 
+| DC | Control sencillo y preciso.
+- Driver de potencia más fácil de implementar.
+- Funciona bien a bajas velocidades.
+- Eficiencia alta en aplicaciones de pequeña escala.  | Requiere mantenimiento por el desgaste de escobillas.
+- No apto para entornos sucios / abrasivos.
+- No adecuado para aplicaciones de alto Torque.
+- Los imanes pueden desmagnetizarse con el tiempo.| 
+| AC SÍNCRONO |  |  | 
   
 
 
