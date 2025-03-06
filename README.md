@@ -29,8 +29,19 @@ foto unu
 * Cuentan con un colector de delgas que Su función principal es actuar como un conmutador mecánico, permitiendo que la corriente cambie de dirección en las bobinas del rotor conforme este gira, manteniendo así un movimiento continuo. 
 
 ### 2.1.2 Motor AC
+Existen dos tipos de motores de corriente alterna. Estos dos tipos son: 
+#### 2.1.2.1 Motor Síncrono 
 
 foto unu
 
-> 🔑Definición: 
+* Está compuesto de multiples bobinas con imanes permanentes (Niodimio). Estos imanes pueden tardar demasiado en desigmantarse, por lo que son ideales para un motor que tendrá un uso constante. 
+* No hay una conexión permanente con las escobillas.
+* La velocidad de rotación está vinculada con la frecuencia de la red (AC), por lo tanto hay un movimiento simultaneo.
+* Es el motor más ideal de todos los tipos de motores existentes para el control de movimiento.
+* Es un motor que recibe corriente trifásica, pues las bobinas están divididas en tres partes.
+
+#### 2.1.2.2 Motor aSíncrono 
+  
+  
+
 
