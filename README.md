@@ -41,7 +41,16 @@ foto unu
 * Es un motor que recibe corriente trifásica, pues las bobinas están divididas en tres partes.
 
 #### 2.1.2.2 Motor aSíncrono 
-  
+
+  foto unu
+
+> 🔑Definición del movimiento: El movimiento se produce cuando la corriente alterna en el estator genera un campo magnético giratorio. Este campo induce una corriente en el rotor, creando a su vez un campo magnético que intenta seguir al del estator. Como nunca lo puede alcanzar por la velocidad de este, se genera un efecto de arrastre.
+
+* Tiene embobinados en el rotor y en el estator.
+* El campo magnético generado por las bobinas del estator induce una corriente en el rotor.
+* Torque grande = Motor más grande.
+
+
   
 
 
