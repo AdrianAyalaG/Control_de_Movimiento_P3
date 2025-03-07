@@ -12,7 +12,9 @@ Figura 1. Variables a controlar de un Servomotor.
 
 ## 1.2 Componentes 
 
-foto unu
+![Figura de prueba](FIG2.png)
+
+Figura 2. Componentes del control de un servomotor. 
 
 * El servomotor permite control mecánico ON - OFF
 
@@ -20,7 +22,9 @@ foto unu
 ## 2.1 Tipos de motores
 ### 2.1.1 Motor DC
 
-foto unu
+![Figura de prueba](FIG3.png)
+
+Figura 3. Motor DC. 
 
 > 🔑Definición: Los motores DC están compuestos por un rotor (bobinado) y un estator, que genera un campo magnético mediante imanes. La interacción entre el campo magnético del estator y la corriente en el bobinado del rotor produce una fuerza electromagnética que genera el movimiento. Además, las escobillas permiten la transferencia de corriente al embobinado del rotor, asegurando una continuidad.
 
@@ -31,7 +35,9 @@ foto unu
 Existen dos tipos de motores de corriente alterna. Estos dos tipos son: 
 #### 2.1.2.1 Motor Síncrono 
 
-foto unu
+![Figura de prueba](FIG4.png)
+
+Figura 4. Motor AC síncrono. 
 
 * Está compuesto de multiples bobinas con imanes permanentes (Niodimio). Estos imanes pueden tardar demasiado en desigmantarse, por lo que son ideales para un motor que tendrá un uso constante. 
 * No hay una conexión permanente con las escobillas.
