@@ -102,7 +102,7 @@ Figura 9. Modelo por corriente de armadura.
 ### 2.3.1 Validación Simscape.
 La explicación del modelo se hará por medio de un ejemplo:
 
-# 📚 Ejemplo 1:
+# 📚 Ejercicio 1:
 
 Se escogió un motor QB02300, un motor que trabaja a 24 V.  A este motor se le sacan parámetros conocidos en el datasheet, así como también se analiza la gráfica de Torque vs Corriente y velocidad en RPM de ese motor en su zona de operación. 
 
