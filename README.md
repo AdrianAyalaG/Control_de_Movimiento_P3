@@ -134,7 +134,7 @@ Figura 13. Torque nominal (Máx) obtenido en el sistema.
 
 Figura 14. Gráficos del simulink. 
 
-*Se analiza el torque máx junto vs un gráfico de los parámetros iniciales escritos en el código de simulink. 
+* Se analiza el torque máx junto vs un gráfico de los parámetros iniciales escritos en el código de simulink. 
 
 ![Figura de prueba](caray8.jpeg)
 
@@ -184,7 +184,7 @@ Figura 23. Gráficos de Torque vs Corriente.
 
 Figura 24. Tabla de datos. 
 
-*Se analiza que es muy parecido visualmente al gráfico dado en el datasheet del motor. Sin embargo, se cuenta con un motor sin un torque apto, pues al perder información en el proceso de estimación, el torque disminuyó a tal punto que su modo de operación disminuyó a un torque de 0.2, lo que perjudica tanto la velocidad como la corriente del mismo. 
+* Se analiza que es muy parecido visualmente al gráfico dado en el datasheet del motor. Sin embargo, se cuenta con un motor sin un torque apto, pues al perder información en el proceso de estimación, el torque disminuyó a tal punto que su modo de operación disminuyó a un torque de 0.2, lo que perjudica tanto la velocidad como la corriente del mismo. 
 
 ### 2.3.2 Elementos
 * Los elementos en Simscape se dividen en múltiples sistemas. Es decir, elementos en color azul - Eléctricos. Color verde - Mecánicos, entre otros.
@@ -257,10 +257,11 @@ Figura 28. Sensor Hall para medicion de corriente.
 * En el curso se usará driver de potencia por medio de PWM.
 
 * Usar L298.
-* 
+  
  ![Figura de prueba](FIG26.png)
 
 Figura 29. PWM junto con un puente H en Simscape.
+
 * SPWM e Inversores
   
  ![Figura de prueba](FIG27.png)
