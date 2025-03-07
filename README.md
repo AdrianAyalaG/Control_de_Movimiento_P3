@@ -86,5 +86,19 @@ La explicación del modelo se hará por medio de un ejemplo:
 * Los elementos en Simscape se dividen en multiples sistemas. Es decir, elementos en color azul - Eléctricos. Color verde - Mecánicos, entre otros.
 
 # 3. Sensores para servomecanismos 
+## 3.1 Encoders
+> 🔑Definición: Sensores usados para medir posición y velocidad de un motor.
+
+Existen dos tipos de encoders: 
+foto unu
+1. Encoder Incremental: Tiene ranuras que permiten el paso de la luz y esto se ve reflejado en pulsos.
+   * En cuadratura. $$90° \alpha$$
+   * Operación de retorno durante encendido.
+   * Precio: Bajo
+2. Encoder Absoluto: Tiene un código digital de posición para una sola revolución.
+   * Casi no se usa en la industria. Pero si se pudiera decir uno que se use mucho, sería el Gray. 
+   * Precio: Alto
+   * El código está perforado en el encoder. 
+    
 
 
