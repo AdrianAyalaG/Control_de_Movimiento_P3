@@ -104,55 +104,75 @@ La explicación del modelo se hará por medio de un ejemplo:
 
 # 📚 Ejemplo 1:
 
+Se escogió un motor QB02300, un motor que trabaja a 24 V.  A este motor se le sacan parámetros conocidos en el datasheet, así como también se analiza la gráfica de Torque vs Corriente y velocidad en RPM de ese motor en su zona de operación. 
+
 ![Figura de prueba](FIG9.jpeg)
 
-Figura 10. . 
+Figura 10. Parámetros iniciales.
+
+* Se toman valores aleatorios de Inductancia de Armadura y Damping. Los valores se toman en rango con respecto a los valores por defecto del sistema. 
 
 ![Figura de prueba](caray4.jpeg)
 
-Figura 11. . 
+Figura 11. Gráfico en Simscape multibody. 
+
+* Se realiza el aspecto visual del sistema, en donde se puede evidenciar generador de PWM, puente H, el motor y los aspectos electrónicos que permitirán conocer la velocidad y la corriente del motor escogido. 
 
 ![Figura de prueba](caray5.jpeg)
 
-Figura 12. . 
+Figura 12. Parámetros del motor. 
+
+* Se añaden parámetros conocidos del datasheet y se ubica la inductancia de armadura y damping como variables que analizará el simulink.
 
 ![Figura de prueba](caray6.jpeg)
 
-Figura 13. . 
+Figura 13. Torque nominal (Máx) obtenido en el sistema.
+
+* Gráficos obtenidos para analizar el torque nominal (Máx) obtenido en el sistema
 
 ![Figura de prueba](caray7.jpeg)
 
-Figura 14. . 
+Figura 14. Gráficos del simulink. 
+
+*Se analiza el torque máx junto vs un gráfico de los parámetros iniciales escritos en el código de simulink. 
 
 ![Figura de prueba](caray8.jpeg)
 
-Figura 15. . 
+Figura 15. Obtención de Inductancia de Armadura y Damping. 
+
+* Simulink tiene la opción de estimar parámetros. En esta estimación el sistema ubica los datos de entrada, los datos esperados y los datos tomados del datasheet; Así gráfica y aproxima los valores no conocidos para hacer más exacto el sistema y poder entender las gráficas de Torque vs Corriente y velocidad. Mientras se hace la estimación de parámetros hay que poner un tiempo de muestreo el cual es el encargado de lo que se demora el proceso. Para este ejercicio se usó un tiempo de muestreo tan bajo que la estimación fue rápida. Esto es bueno para agilizar el proceso, pero se sacrifica información que perjudica el resultado final del proceso. Si el torque nominal dado en el Datasheet era de 5690, por perdida de información se tiene un error del 40% pues el torque nominal resultante da 3511.
 
 ![Figura de prueba](Caray9.jpeg)
 
-Figura 16. . 
+Figura 16. Proceso de estimación de parámetros. 
 
 ![Figura de prueba](caray10.jpeg)
 
-Figura 17. . 
+Figura 17. Resultados de la estimación. 
+
+*Al obtener los datos aproximados arrojados por el sistema, se puede actualizar el simscape con estos valores, asegurando una mejor respuesta de gráficas. 
 
 ![Figura de prueba](caray11.jpeg)
 
-Figura 18. . 
+Figura 18. Obtención gráfica Torque en vacío. 
 
 ![Figura de prueba](caray12.jpeg)
 
-Figura 19. . 
+Figura 19. Sistema con carga y bloqueo. 
+
+* Al colocar el elemento de torque ideal en referencia, se bloquea las mediciones de corriente y velocidad. Sin embargo esto solo se hace para asegurar el valor de torque del sistema. 
 
 ![Figura de prueba](caray13.jpeg)
 
-Figura 20. . 
+Figura 20. Sistema con carga y sin bloqueo. 
+
+* Se retira la referencia antes mencionada y se puede analizar velocidad (RPM) y corriente del sistema. 
 
 ![Figura de prueba]()
 
 Figura 21. Gráficos de Torque vs Corriente y Voltaje. 
 
-
+*Se analiza que es muy parecido visualmente al gráfico dado en el datasheet del motor. Sin embargo, se cuenta con un motor sin un torque apto, pues al perder información en el proceso de estimación, el torque disminuyó a tal punto que su modo de operación disminuyó a un torque de 0.2, lo que perjudica tanto la velocidad como la corriente del mismo. 
 
 ### 2.3.2 Elementos
 * Los elementos en Simscape se dividen en múltiples sistemas. Es decir, elementos en color azul - Eléctricos. Color verde - Mecánicos, entre otros.
@@ -171,6 +191,8 @@ Figura 22. Encoders incrementales y absolutos.
    * En cuadratura. $$90° \alpha$$
    * Operación de retorno durante encendido.
    * Precio: Bajo
+  
+
 2. Encoder Absoluto: Tiene un código digital de posición para una sola revolución.
    * Casi no se usa en la industria. Pero si se pudiera decir uno que se use mucho, sería el Gray. 
    * Precio: Alto
