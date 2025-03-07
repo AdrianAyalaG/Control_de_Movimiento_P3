@@ -204,7 +204,6 @@ Figura 25. Encoders incrementales y absolutos.
    * Operación de retorno durante encendido.
    * Precio: Bajo
   
-
 2. Encoder Absoluto: Tiene un código digital de posición para una sola revolución.
    * Casi no se usa en la industria. Pero si se pudiera decir uno que se use mucho, sería el Gray. 
    * Precio: Alto
@@ -256,13 +255,12 @@ Figura 28. Sensor Hall para medicion de corriente.
  > 🔑Definición: Un driver de potencia es un dispositivo que regula y suministra la energía necesaria a motores y actuadores, permitiendo su control eficiente. Convierte señales de baja potencia en señales de alta potencia, ajustando velocidad, dirección y torque, además de proteger el sistema contra sobrecargas.
 
 * En el curso se usará driver de potencia por medio de PWM.
-  
- ![Figura de prueba]()
-
-Figura 29. PWM junto con un puente H en Simscape.
 
 * Usar L298.
+* 
+ ![Figura de prueba](FIG26.png)
 
+Figura 29. PWM junto con un puente H en Simscape.
 * SPWM e Inversores
   
  ![Figura de prueba](FIG27.png)
@@ -274,6 +272,5 @@ Figura 30. SPWM e inversores vistos en clase.
 El control de movimiento en sistemas electromecánicos depende de una integración precisa entre motores, servomotores, sensores y drivers de potencia. Cada componente cumple un papel fundamental: los motores transforman la energía en movimiento, los servomotores permiten un control preciso, los sensores proporcionan retroalimentación esencial y los drivers de potencia regulan la energía suministrada. Una selección inadecuada o un mal diseño puede comprometer el desempeño del sistema, por lo que es crucial comprender sus principios de operación y características. La simulación y validación, como en el caso de Simscape, optimizan su implementación y garantizan un rendimiento eficiente. En definitiva, el dominio de estos elementos permite desarrollar soluciones innovadoras y confiables en automatización y control. 
 
 # Referencias
-[1] 
-
+[1] “Login aulas 2025”, Edu.co. [En línea]. Disponible en: https://aulas.ecci.edu.co/mod/resource/view.php?id=217536. [Consultado: 06-mar-2025].
 
