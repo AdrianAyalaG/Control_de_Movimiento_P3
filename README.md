@@ -132,6 +132,16 @@ foto unu
 * Tiene problemas de saturación.
 * Rango de medida: 0 - 1000 A.
 
+## 3.4 Drivers de Potencia
+ > 🔑Definición: Un driver de potencia es un dispositivo que regula y suministra la energía necesaria a motores y actuadores, permitiendo su control eficiente. Convierte señales de baja potencia en señales de alta potencia, ajustando velocidad, dirección y torque, además de proteger el sistema contra sobrecargas.
 
+* En el curso se usará driver de potencia por medio de PWM.
+  foto unu
 
+* Usar L298.
+  foto unu
+
+* SPWM e Inversores
+  foto unu
+  
 
