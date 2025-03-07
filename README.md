@@ -155,7 +155,7 @@ Figura 21. Gráficos de Torque vs Corriente y Voltaje.
 
 
 ### 2.3.2 Elementos
-* Los elementos en Simscape se dividen en multiples sistemas. Es decir, elementos en color azul - Eléctricos. Color verde - Mecánicos, entre otros.
+* Los elementos en Simscape se dividen en múltiples sistemas. Es decir, elementos en color azul - Eléctricos. Color verde - Mecánicos, entre otros.
 
 # 3. Sensores para servomecanismos 
 ## 3.1 Encoders
@@ -165,7 +165,7 @@ Existen dos tipos de encoders:
 
 ![Figura de prueba](FIG21.jpg)
 
-Figura 22. .
+Figura 22. Encoders incrementales y absolutos.
 
 1. Encoder Incremental: Tiene ranuras que permiten el paso de la luz y esto se ve reflejado en pulsos.
    * En cuadratura. $$90° \alpha$$
@@ -180,7 +180,7 @@ Figura 22. .
 
 ![Figura de prueba](FIG22.png)
 
-Figura 23. .
+Figura 23. Sistema interno de un resolver.
 
 > 🔑Definición: Sensor de posición angular que cuenta con un rotor y un estator.
 
@@ -193,9 +193,11 @@ Figura 23. .
  > 🔑Definición: Sensores que se usan para medir torque. Como se sabe que la corriente es directamente proporcional al torque, se usan Leyes de Ohm y Faraday.
 
 ### 3.3.1 Shunt
+
 ![Figura de prueba](FIG23.jpg)
 
-Figura 24. .
+Figura 24. Shunt de Corriente.
+
  > 🔑Definición: Resistencia que se usa para medir la tensión. Con estos dos valores establecidos se realiza la ley de Ohm para conocer la corriente.
 * Costo bajo.
 * Es malo usar Shunt para corrientes grandes.
@@ -204,9 +206,10 @@ Figura 24. .
 * Rango de medida: 6000 A.
   
 ### 3.3.2 Hall 
+
 ![Figura de prueba](FIG24.jpg)
 
-Figura 25. .
+Figura 25. Sensor Hall para medicion de corriente.
 
  > 🔑Definición: Sensor que detecta cambios magnéticos y por medio de la ley de Faraday para obtener esa corriente. 
 * Costo alto.
@@ -219,18 +222,21 @@ Figura 25. .
  > 🔑Definición: Un driver de potencia es un dispositivo que regula y suministra la energía necesaria a motores y actuadores, permitiendo su control eficiente. Convierte señales de baja potencia en señales de alta potencia, ajustando velocidad, dirección y torque, además de proteger el sistema contra sobrecargas.
 
 * En el curso se usará driver de potencia por medio de PWM.
+  
  ![Figura de prueba]()
 
-Figura 26. .
+Figura 26. PWM junto con un puente H en Simscape.
 
 * Usar L298.
+  
 ![Figura de prueba](FIG26.png)
 
-Figura 27. .
+Figura 27. L298 sensor de medición de Torque.
 
 * SPWM e Inversores
+  
  ![Figura de prueba](FIG27.png)
 
-Figura 28. .
+Figura 28. SPWM e inversores vistos en clase.
   
 
