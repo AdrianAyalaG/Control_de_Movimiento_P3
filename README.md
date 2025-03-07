@@ -170,19 +170,19 @@ Figura 20. Sistema con carga y sin bloqueo.
 
 ![Figura de prueba](md1.jpeg)
 
-Figura 21. Gráficos de Torque vs Corriente y Voltaje. 
+Figura 21. Gráficos de Torque vs Corriente y Voltaje (Datasheet) . 
 
 ![Figura de prueba](md2.jpeg)
 
-Figura 22. Gráficos de Torque vs Corriente y Voltaje. 
+Figura 22. Gráficos de Torque vs Velocidad. 
 
 ![Figura de prueba](md3.jpeg)
 
-Figura 23. Gráficos de Torque vs Corriente y Voltaje. 
+Figura 23. Gráficos de Torque vs Corriente. 
 
 ![Figura de prueba](md4.jpeg)
 
-Figura 24. Gráficos de Torque vs Corriente y Voltaje. 
+Figura 24. Tabla de datos. 
 
 *Se analiza que es muy parecido visualmente al gráfico dado en el datasheet del motor. Sin embargo, se cuenta con un motor sin un torque apto, pues al perder información en el proceso de estimación, el torque disminuyó a tal punto que su modo de operación disminuyó a un torque de 0.2, lo que perjudica tanto la velocidad como la corriente del mismo. 
 
@@ -262,15 +262,18 @@ Figura 28. Sensor Hall para medicion de corriente.
 Figura 29. PWM junto con un puente H en Simscape.
 
 * Usar L298.
-  
-![Figura de prueba](FIG26.png)
-
-Figura 30. L298 sensor de medición de Torque.
 
 * SPWM e Inversores
   
  ![Figura de prueba](FIG27.png)
 
-Figura 31. SPWM e inversores vistos en clase.
-  
+Figura 30. SPWM e inversores vistos en clase.
+
+# Conclusiones
+
+El control de movimiento en sistemas electromecánicos depende de una integración precisa entre motores, servomotores, sensores y drivers de potencia. Cada componente cumple un papel fundamental: los motores transforman la energía en movimiento, los servomotores permiten un control preciso, los sensores proporcionan retroalimentación esencial y los drivers de potencia regulan la energía suministrada. Una selección inadecuada o un mal diseño puede comprometer el desempeño del sistema, por lo que es crucial comprender sus principios de operación y características. La simulación y validación, como en el caso de Simscape, optimizan su implementación y garantizan un rendimiento eficiente. En definitiva, el dominio de estos elementos permite desarrollar soluciones innovadoras y confiables en automatización y control. 
+
+# Referencias
+[1] 
+
 
