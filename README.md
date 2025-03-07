@@ -270,8 +270,7 @@ Figura 30. SPWM e inversores vistos en clase.
 
 # Conclusiones
 
-El control de movimiento en sistemas electromecánicos depende de una integración precisa entre motores, servomotores, sensores y drivers de potencia. Cada componente cumple un papel fundamental: los motores transforman la energía en movimiento, los servomotores permiten un control preciso, los sensores proporcionan retroalimentación esencial y los drivers de potencia regulan la energía suministrada. Una selección inadecuada o un mal diseño puede comprometer el desempeño del sistema, por lo que es crucial comprender sus principios de operación y características. La simulación y validación, como en el caso de Simscape, optimizan su implementación y garantizan un rendimiento eficiente. En definitiva, el dominio de estos elementos permite desarrollar soluciones innovadoras y confiables en automatización y control. 
-
+El control de movimiento en sistemas electromecánicos depende de una integración precisa entre motores, servomotores, sensores y drivers de potencia. Cada componente cumple un papel fundamental: los motores transforman la energía en movimiento, los servomotores permiten un control preciso, los sensores proporcionan retroalimentación esencial y los drivers de potencia regulan la energía suministrada. Una selección inadecuada o un mal diseño puede comprometer el desempeño del sistema, por lo que es crucial comprender sus principios de operación y características. La simulación y validación, como en el caso de Simscape, optimizan su implementación y garantizan un rendimiento eficiente. 
 # Referencias
 [1] “Login aulas 2025”, Edu.co. [En línea]. Disponible en: https://aulas.ecci.edu.co/mod/resource/view.php?id=217536. [Consultado: 06-mar-2025].
 
