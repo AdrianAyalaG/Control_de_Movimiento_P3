@@ -98,7 +98,40 @@ foto unu
 2. Encoder Absoluto: Tiene un código digital de posición para una sola revolución.
    * Casi no se usa en la industria. Pero si se pudiera decir uno que se use mucho, sería el Gray. 
    * Precio: Alto
-   * El código está perforado en el encoder. 
-    
+   * El código está perforado en el encoder.
+     
+## 3.2 Resolver 
+
+fotounu
+
+> 🔑Definición: Sensor de posición angular que cuenta con un rotor y un estator.
+
+* Se parece mucho al funcionamiento de un transformador.
+* Lo hay con o sin escobillas.
+* Los voltajes típicos de operación están entre 2V y 40V RMS, con una frecuencia de funcionamiento entre 50 Hz y 20 kHz.
+* La relación de transformación entre el devanado primario y secundario varía entre 0.2 V/V y 1 V/V.
+
+## 3.3 Sensores Shunt y Hall 
+ > 🔑Definición: Sensores que se usan para medir torque. Como se sabe que la corriente es directamente proporcional al torque, se usan Leyes de Ohm y Faraday.
+
+### 3.3.1 Shunt
+foto unu
+ > 🔑Definición: Resistencia que se usa para medir la tensión. Con estos dos valores establecidos se realiza la ley de Ohm para conocer la corriente.
+* Costo bajo.
+* Es malo usar Shunt para corrientes grandes.
+* Tiene un alto consumo de energía.
+* No tiene problemas de saturación.
+* Rango de medida: 6000 A.
+  
+### 3.3.2 Hall 
+foto unu
+ > 🔑Definición: Sensor que detecta cambios magnéticos y por medio de la ley de Faraday para obtener esa corriente. 
+* Costo alto.
+* Es bueno usar Hall para corrientes grandes.
+* Tiene un consumo medio de energía.
+* Tiene problemas de saturación.
+* Rango de medida: 0 - 1000 A.
+
+
 
 
