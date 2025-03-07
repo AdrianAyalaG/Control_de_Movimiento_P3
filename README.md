@@ -15,9 +15,6 @@ foto unu
 * El servomotor permite control mecánico ON - OFF
 
 # 2. Motores
-
-foto unu
-
 ## 2.1 Tipos de motores
 ### 2.1.1 Motor DC
 
