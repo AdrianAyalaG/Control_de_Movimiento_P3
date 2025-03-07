@@ -22,7 +22,7 @@ Figura 2. Componentes del control de un servomotor.
 ## 2.1 Tipos de motores
 ### 2.1.1 Motor DC
 
-![Figura de prueba](FIG3.png)
+![Figura de prueba](FIG3.jpg)
 
 Figura 3. Motor DC. 
 
@@ -35,7 +35,7 @@ Figura 3. Motor DC.
 Existen dos tipos de motores de corriente alterna. Estos dos tipos son: 
 #### 2.1.2.1 Motor Síncrono 
 
-![Figura de prueba](FIG4.png)
+![Figura de prueba](FIG_4.jpg)
 
 Figura 4. Motor AC síncrono. 
 
@@ -47,7 +47,9 @@ Figura 4. Motor AC síncrono.
 
 #### 2.1.2.2 Motor aSíncrono 
 
-  foto unu
+ ![Figura de prueba](FIG1.png)
+
+Figura 1. Variables a controlar de un Servomotor. 
 
 > 🔑Definición del movimiento: El movimiento se produce cuando la corriente alterna en el estator genera un campo magnético giratorio. Este campo induce una corriente en el rotor, creando a su vez un campo magnético que intenta seguir al del estator. Como nunca lo puede alcanzar por la velocidad de este, se genera un efecto de arrastre.
 
