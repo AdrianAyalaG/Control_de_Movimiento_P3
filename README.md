@@ -6,7 +6,7 @@ Los ingenieros emplean servomotores, motores, sensores y drivers de potencia en 
 
 ## 1.1 Variables a controlar de un servomotor
 
-![Figura de prueba](FIG1)
+![Figura de prueba](FIG1.png)
 
 Figura 1. Variables a controlar de un Servomotor. 
 
