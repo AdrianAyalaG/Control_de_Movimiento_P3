@@ -35,7 +35,7 @@ Figura 3. Motor DC.
 Existen dos tipos de motores de corriente alterna. Estos dos tipos son: 
 #### 2.1.2.1 Motor Síncrono 
 
-![Figura de prueba](FIG_4.jpg)
+![Figura de prueba]()
 
 Figura 4. Motor AC síncrono. 
 
@@ -47,15 +47,23 @@ Figura 4. Motor AC síncrono.
 
 #### 2.1.2.2 Motor aSíncrono 
 
- ![Figura de prueba](FIG1.png)
+ ![Figura de prueba]()
 
-Figura 1. Variables a controlar de un Servomotor. 
+Figura 5. Motor AC asíncrono. 
 
 > 🔑Definición del movimiento: El movimiento se produce cuando la corriente alterna en el estator genera un campo magnético giratorio. Este campo induce una corriente en el rotor, creando a su vez un campo magnético que intenta seguir al del estator. Como nunca lo puede alcanzar por la velocidad de este, se genera un efecto de arrastre.
 
 * Tiene embobinados en el rotor y en el estator.
 * El campo magnético generado por las bobinas del estator induce una corriente en el rotor.
 * Torque grande = Motor más grande.
+* Otros motores:
+  ![Figura de prueba](FIG6(2).png)
+
+Figura 6. Motor asíncrono, jaula ardilla . 
+
+![Figura de prueba](FIG6.png)
+
+Figura 7. Motor asíncrono Rotor Bobinado. 
 
 ##### 2.1.2.2.1 Tipos de motores asincronos 
 | TIPO DE MOTOR  | VENTAJAS | DESVENTAJAS  |
@@ -67,7 +75,9 @@ Tabla 1. Tabla de diferencias entre Motores DC y Motores AC síncronos.
 
 ## 2.2 Zonas de Operación
 
-fotos unu
+![Figura de prueba](FIGESA.png)
+
+Figura 8. Zonas de operación de un motor. 
 
 ## 2.3 Validación de modelo en Simscape
 * Hay que tener en cuenta que el modo de operación es continuo.
@@ -75,7 +85,10 @@ fotos unu
 * La corriente es directamente proporcional al torque.
 * Hay que tener en cuenta que pueden haber momentos abruptos de más torque (No más de 10 segundos para evitar deterioramiento del motor).
 * Hay que tener en cuenta que el rotor tiene carga adicional.
-* foto unu
+* ![Figura de prueba](FIG8.png)
+
+Figura 9. Modelo por corriente de armadura. 
+
 * Se deben seguir unos pasos para poder configurar bien el sistema y analizar las zonas de operación del motor
   | PASOS  |
   | ------ |
@@ -87,6 +100,13 @@ fotos unu
    
 ### 2.3.1 Validación Simscape.
 La explicación del modelo se hará por medio de un ejemplo:
+
+# 📚 Ejemplo 1:
+
+![Figura de prueba](FIG9.jpeg)
+
+Figura 10. . 
+
 
 
 ### 2.3.2 Elementos
