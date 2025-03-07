@@ -168,9 +168,21 @@ Figura 20. Sistema con carga y sin bloqueo.
 
 * Se retira la referencia antes mencionada y se puede analizar velocidad (RPM) y corriente del sistema. 
 
-![Figura de prueba]()
+![Figura de prueba](md1.jpeg)
 
 Figura 21. Gráficos de Torque vs Corriente y Voltaje. 
+
+![Figura de prueba](md2.jpeg)
+
+Figura 22. Gráficos de Torque vs Corriente y Voltaje. 
+
+![Figura de prueba](md3.jpeg)
+
+Figura 23. Gráficos de Torque vs Corriente y Voltaje. 
+
+![Figura de prueba](md4.jpeg)
+
+Figura 24. Gráficos de Torque vs Corriente y Voltaje. 
 
 *Se analiza que es muy parecido visualmente al gráfico dado en el datasheet del motor. Sin embargo, se cuenta con un motor sin un torque apto, pues al perder información en el proceso de estimación, el torque disminuyó a tal punto que su modo de operación disminuyó a un torque de 0.2, lo que perjudica tanto la velocidad como la corriente del mismo. 
 
@@ -185,7 +197,7 @@ Existen dos tipos de encoders:
 
 ![Figura de prueba](FIG21.jpg)
 
-Figura 22. Encoders incrementales y absolutos.
+Figura 25. Encoders incrementales y absolutos.
 
 1. Encoder Incremental: Tiene ranuras que permiten el paso de la luz y esto se ve reflejado en pulsos.
    * En cuadratura. $$90° \alpha$$
@@ -202,7 +214,7 @@ Figura 22. Encoders incrementales y absolutos.
 
 ![Figura de prueba](FIG22.png)
 
-Figura 23. Sistema interno de un resolver.
+Figura 26. Sistema interno de un resolver.
 
 > 🔑Definición: Sensor de posición angular que cuenta con un rotor y un estator.
 
@@ -218,7 +230,7 @@ Figura 23. Sistema interno de un resolver.
 
 ![Figura de prueba](FIG23.jpg)
 
-Figura 24. Shunt de Corriente.
+Figura 27. Shunt de Corriente.
 
  > 🔑Definición: Resistencia que se usa para medir la tensión. Con estos dos valores establecidos se realiza la ley de Ohm para conocer la corriente.
 * Costo bajo.
@@ -231,7 +243,7 @@ Figura 24. Shunt de Corriente.
 
 ![Figura de prueba](FIG24.jpg)
 
-Figura 25. Sensor Hall para medicion de corriente.
+Figura 28. Sensor Hall para medicion de corriente.
 
  > 🔑Definición: Sensor que detecta cambios magnéticos y por medio de la ley de Faraday para obtener esa corriente. 
 * Costo alto.
@@ -247,18 +259,18 @@ Figura 25. Sensor Hall para medicion de corriente.
   
  ![Figura de prueba]()
 
-Figura 26. PWM junto con un puente H en Simscape.
+Figura 29. PWM junto con un puente H en Simscape.
 
 * Usar L298.
   
 ![Figura de prueba](FIG26.png)
 
-Figura 27. L298 sensor de medición de Torque.
+Figura 30. L298 sensor de medición de Torque.
 
 * SPWM e Inversores
   
  ![Figura de prueba](FIG27.png)
 
-Figura 28. SPWM e inversores vistos en clase.
+Figura 31. SPWM e inversores vistos en clase.
   
 
