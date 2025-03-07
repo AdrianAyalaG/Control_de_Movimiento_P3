@@ -35,7 +35,7 @@ Figura 3. Motor DC.
 Existen dos tipos de motores de corriente alterna. Estos dos tipos son: 
 #### 2.1.2.1 Motor Síncrono 
 
-![Figura de prueba]()
+![Figura de prueba](caray1.jpg)
 
 Figura 4. Motor AC síncrono. 
 
@@ -47,7 +47,7 @@ Figura 4. Motor AC síncrono.
 
 #### 2.1.2.2 Motor aSíncrono 
 
- ![Figura de prueba]()
+ ![Figura de prueba](caray2.jpg)
 
 Figura 5. Motor AC asíncrono. 
 
@@ -57,7 +57,8 @@ Figura 5. Motor AC asíncrono.
 * El campo magnético generado por las bobinas del estator induce una corriente en el rotor.
 * Torque grande = Motor más grande.
 * Otros motores:
-  ![Figura de prueba](FIG6(2).png)
+  
+  ![Figura de prueba](caray3.png)
 
 Figura 6. Motor asíncrono, jaula ardilla . 
 
@@ -107,6 +108,50 @@ La explicación del modelo se hará por medio de un ejemplo:
 
 Figura 10. . 
 
+![Figura de prueba](caray4.jpeg)
+
+Figura 11. . 
+
+![Figura de prueba](caray5.jpeg)
+
+Figura 12. . 
+
+![Figura de prueba](caray6.jpeg)
+
+Figura 13. . 
+
+![Figura de prueba](caray7.jpeg)
+
+Figura 14. . 
+
+![Figura de prueba](caray8.jpeg)
+
+Figura 15. . 
+
+![Figura de prueba](Caray9.jpeg)
+
+Figura 16. . 
+
+![Figura de prueba](caray10.jpeg)
+
+Figura 17. . 
+
+![Figura de prueba](caray11.jpeg)
+
+Figura 18. . 
+
+![Figura de prueba](caray12.jpeg)
+
+Figura 19. . 
+
+![Figura de prueba](caray13.jpeg)
+
+Figura 20. . 
+
+![Figura de prueba]()
+
+Figura 21. Gráficos de Torque vs Corriente y Voltaje. 
+
 
 
 ### 2.3.2 Elementos
@@ -116,8 +161,12 @@ Figura 10. .
 ## 3.1 Encoders
 > 🔑Definición: Sensores usados para medir posición y velocidad de un motor.
 
-Existen dos tipos de encoders: 
-foto unu
+Existen dos tipos de encoders:
+
+![Figura de prueba](FIG21.jpg)
+
+Figura 22. .
+
 1. Encoder Incremental: Tiene ranuras que permiten el paso de la luz y esto se ve reflejado en pulsos.
    * En cuadratura. $$90° \alpha$$
    * Operación de retorno durante encendido.
@@ -129,7 +178,9 @@ foto unu
      
 ## 3.2 Resolver 
 
-fotounu
+![Figura de prueba](FIG22.png)
+
+Figura 23. .
 
 > 🔑Definición: Sensor de posición angular que cuenta con un rotor y un estator.
 
@@ -142,7 +193,9 @@ fotounu
  > 🔑Definición: Sensores que se usan para medir torque. Como se sabe que la corriente es directamente proporcional al torque, se usan Leyes de Ohm y Faraday.
 
 ### 3.3.1 Shunt
-foto unu
+![Figura de prueba](FIG23.jpg)
+
+Figura 24. .
  > 🔑Definición: Resistencia que se usa para medir la tensión. Con estos dos valores establecidos se realiza la ley de Ohm para conocer la corriente.
 * Costo bajo.
 * Es malo usar Shunt para corrientes grandes.
@@ -151,7 +204,10 @@ foto unu
 * Rango de medida: 6000 A.
   
 ### 3.3.2 Hall 
-foto unu
+![Figura de prueba](FIG24.jpg)
+
+Figura 25. .
+
  > 🔑Definición: Sensor que detecta cambios magnéticos y por medio de la ley de Faraday para obtener esa corriente. 
 * Costo alto.
 * Es bueno usar Hall para corrientes grandes.
@@ -163,12 +219,18 @@ foto unu
  > 🔑Definición: Un driver de potencia es un dispositivo que regula y suministra la energía necesaria a motores y actuadores, permitiendo su control eficiente. Convierte señales de baja potencia en señales de alta potencia, ajustando velocidad, dirección y torque, además de proteger el sistema contra sobrecargas.
 
 * En el curso se usará driver de potencia por medio de PWM.
-  foto unu
+ ![Figura de prueba]()
+
+Figura 26. .
 
 * Usar L298.
-  foto unu
+![Figura de prueba](FIG26.png)
+
+Figura 27. .
 
 * SPWM e Inversores
-  foto unu
+ ![Figura de prueba](FIG27.png)
+
+Figura 28. .
   
 
